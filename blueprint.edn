@@ -1,6 +1,9 @@
-{:company/legal-name "American Electric Power Company, Inc."
- :company/lei "1B4S6S7G0TW5EE83BO58"
+{:company/lei "1B4S6S7G0TW5EE83BO58"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.aep.com/contact/investors/?rel=investors), retrieved 2026-07-25T05:02:59.226Z by scripts/lei-contact-discover.cljs (GET only)"
  :company/jurisdiction "US-OH"
- :company/website "https://www.aep.com"
  :company/ticker "AEP (NASDAQ)"
- :itonami.blueprint/maturity :implemented}
+ :itonami.blueprint/maturity :implemented
+ :company/contact-email "investors@aep.com"
+ :company/legal-name "American Electric Power Company, Inc."
+ :company/website "https://www.aep.com"
+ :company/inquiry-form-url "https://www.aep.com/contact/investors/?rel=investors"}
