@@ -1,0 +1,26 @@
+;; facts.edn — GLEIF LEI レコードから取り込んだ法人レベルの事実。
+;; 生成物: scripts/lei-gleif-ingest.cljs（手編集しない）。
+;; 出典 https://api.gleif.org/api/v1/lei-records/1B4S6S7G0TW5EE83BO58 を 2026-08-25 に GET（HTTP 200）。応答本文の sha256 を同梱。
+;; fact/conflict は blueprint.edn の既存値と食い違った key。どちらも消していない。
+[["gleif-1b4s6s7g0tw5ee83bo58" "company/lei" "1B4S6S7G0TW5EE83BO58" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "fact/source-url" "https://api.gleif.org/api/v1/lei-records/1B4S6S7G0TW5EE83BO58" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "fact/retrieved-at" "2026-08-25" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "fact/response-sha256" "8081fadf5ed465cd096da6d1e20e209a401de7a7337baefe8f763df830c0cafd" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "source/dataset" "cloud-itonami-lei-gleif" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/legal-name" "AMERICAN ELECTRIC POWER COMPANY, INC." 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/legal-address" "C/O C T CORPORATION SYSTEM, 28 LIBERTY ST., 10005, NEW YORK, US-NY, US" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/headquarters-address" "1 RIVERSIDE PLAZA, 43215, COLUMBUS, US-OH, US" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/registered-as" "20479" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/registration-authority" "RA000628" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/jurisdiction" "US-NY" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/category" "GENERAL" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/legal-form-elf" "PJ10" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/entity-status" "ACTIVE" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/entity-creation-date" "1925-02-18T00:00:00Z" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/registration-status" "ISSUED" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/initial-registration-date" "2012-06-06T15:55:00Z" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/last-update-date" "2026-07-23T09:41:46Z" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/next-renewal-date" "2027-08-12T00:00:00Z" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/managing-lou" "5493001KJTIIGC8Y1R12" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "gleif/corroboration-level" "FULLY_CORROBORATED" 1 :add]
+ ["gleif-1b4s6s7g0tw5ee83bo58" "fact/conflict" ":company/jurisdiction: blueprint=\"US-OH\" gleif=\"US-NY\"" 1 :add]]
